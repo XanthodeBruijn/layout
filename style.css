@@ -6,7 +6,7 @@ body{
 }
 
 div.header{
-	background-color: gray;
+	background-color: white;
 	height: 100px;
 	display:block;
 }
@@ -24,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #e60000;
 }
 
 li {
@@ -37,10 +37,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #b30000;
 }
 
 h1{
@@ -48,19 +50,52 @@ h1{
 	padding: 25px;
 }
 
-h2{
-	z
+div.copyright{
+	width: auto;
+	background-color: #e60000;
+	width: 100%;
+}
+
+p.copyright{
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	margin: 0px;
+}
+
+img.reclame{
+	float: right;
+	padding: 25px;
+	width: 175px;
 }
 
 div.artikel1{
 	margin: 25px;
 	padding: 20px;
 	border: 2px solid black;
-	overflow: auto;
+	width: 30%;
+	overflow: hidden;
+	word-wrap: break-word;
+	height: auto;
 }
 
 img.artikel1{
-	width: 350px;
-	float: left;
+	width: 100%;
+	margin-right: 20px;
+}
+
+div.artikel2{
+	margin: 25px;
+	padding: 20px;
+	border: 2px solid black;
+	width: 30%;
+	overflow: hidden;
+	word-wrap: break-word;
+	height: auto;
+}
+
+img.artikel2{
+	width: 100%;
 	margin-right: 20px;
 }
